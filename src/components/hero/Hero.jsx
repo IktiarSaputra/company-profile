@@ -1,5 +1,4 @@
 import React from 'react'
-import {AiOutlineSearch} from 'react-icons/ai'
 
 import image from '../../assets/img/banner/banner_2.png'
 
