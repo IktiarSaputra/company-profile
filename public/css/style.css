@@ -1002,7 +1002,7 @@ img {
 .home-banner-area.banner-type-two {
   height: auto;
   padding: 150px 0;
-  background: url('../../src/assets/img/background/banner_2_bg.png') no-repeat, linear-gradient(150deg, #a8aaf1 0%, #2c31ff 20%, #2c31ff 100%);
+  background: url('../../src/assets/img/background/banner_2_bg.png') no-repeat, linear-gradient(150deg, #2c31ff 20%, #2c31ff 100%);
 }
 
 .home-banner-area.banner-type-two::after {
