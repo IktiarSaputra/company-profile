@@ -1,0 +1,19 @@
+footer {
+    background: #1A1E25;
+    color: #868c96;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    margin-bottom: 0px !important;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+footer p {
+    padding: .8em;
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+}

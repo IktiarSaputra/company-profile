@@ -1,0 +1,120 @@
+.hero {
+    background: url('../../assets/img/background/banner_2_bg.png') no-repeat,
+    url('../../assets/img/background/banner_3_bg.png') no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+/* .hero:before {
+    content: '';
+    background: url('../../assets/img/banner/banner_2.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} */
+
+.hero .content {
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+.hero .search-text {
+    font-size: 1.4rem;
+}
+
+.search {
+    display: flex;
+    background-color: #fff;
+    color: #333;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.search input[type=text] {
+    border: transparent;
+    background-color: transparent;
+    width: 400px;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.search input[type=text]:focus {
+    outline: none;
+}
+
+.search label {
+    padding: 0 14px 0 8px;
+}
+
+.search .radio {
+    display: flex;
+    align-items: center;
+}
+
+.search button {
+    background-image: linear-gradient(45deg, #5651e5 0%, #709dff 100%);
+    border: 1px solid #5651e5;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 940px) {
+    .hero {
+        height: 100%;
+        padding-bottom: 3em;
+    }
+
+    .hero h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .search-text{
+        text-align: center;
+    }
+
+    .col-md-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-md-6 img{
+        width: 80%;
+    }
+
+    .hero .content {
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+}
+
+
+
+
+
+
+
+
